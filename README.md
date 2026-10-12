@@ -137,7 +137,13 @@ kerberos 88 impacket krb, krb5
 You can check availability at any time:
 
 ```bash
-python3 nexovar.py --list-protocols --scope dummy --i-have-authorization
+python3 nexovar.py --list-protocols --scope dummy --i-have-authorization or
+python3 nexovar.py 127.0.0.1:22 \
+    --scope scope.txt \
+    --protocol ssh \
+    -U users.txt \
+    -P passes.txt \
+    --i-have-authorization
 ```
 
 Protocols whose dependencies are missing will be marked MISSING with the
@@ -224,8 +230,8 @@ This gives you the framework with the always-available protocols
 deps:
 
 ```bash
-git clone https://github.com/yourorg/nexovar.git
-cd nexovar
+git clone https://github.com/sylhetyhackvenger/NEXOVAR 
+cd NEXOVAR 
 python3 -m venv .venv
 source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install --upgrade pip
