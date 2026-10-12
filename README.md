@@ -1,4 +1,4 @@
-# NEXOVAR is a multi protocol hacking framework 
+# NEXOVAR IS A MULTI PROTOCOL BRUTE-FORCING TOOL
 <p align="center">
   <img src="logo.svg" alt="Nexovar logo" width="300"/>
 </p>
