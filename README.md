@@ -1,5 +1,10 @@
 # NEXOVAR IS A MULTI PROTOCOL BRUTE-FORCING TOOL
 <p align="center">
+  <img src="assets/1.png" alt="Banner 1" width="100%">
+</p>
+
+
+<p align="center">
   <img src="logo.svg" alt="Nexovar logo" width="300"/>
 </p>
 
@@ -150,6 +155,10 @@ Protocols whose dependencies are missing will be marked MISSING with the
 exact pip install command needed.
 
 ---
+<p align="center">
+  <img src="assets/2.png" alt="Banner 2" width="100%">
+</p>
+
 
 🏗️ Architecture Overview
 
